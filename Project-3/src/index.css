@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Trebuchet MS', 'Segoe UI', Tahoma, sans-serif;
+  background: linear-gradient(180deg, #f7f9ff 0%, #eff3fb 100%);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}

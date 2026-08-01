@@ -1,0 +1,120 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="./style.css">
+    <title>Project</title>
+  </head>
+  
+  <body>
+
+    <header> <!--Container tag-->
+    <h1>Diksha Mhaskar</h1>
+    <p>Aspiring Computer Engineering Student</p>
+    </header>
+
+    <main> <!--Container tag-->
+      <nav> <!--Container tag, its not going to make it look like a navigation bar, you will have to write CSS for that.--> 
+      <ul>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#experience">Work Experience</a></li>
+        <li id="internship"><a href="">Internships</a></li>
+        <li><a href="">Projects</a></li>
+        <!-- Mandatory sections-->
+        <li><a href="#contact-me">Contact Me</a></li>
+        <li><a href="#admin-login" onClick="ShowAdminLogin()">Admin Login</a></li>
+      </ul>
+      </nav>
+      <button id="toggle-theme">Toggle Theme</button>
+
+      <section id="education" class="section-style"> <!--Container tag-->
+        <h2 id="edu">Education</h2>
+
+        <h3>Currently pursuing Bachelor's degree in Computer Science</h3>
+        <p>University Of Mumbai</p>
+        <p>2027</p>
+
+        <h3>VTU Bangalore</h3>
+        <p>BE Cse</p>
+        <p>2021</p>
+
+        <h3>DPS</h3>
+        <p>Non Med</p>
+        <p>2017</p>
+
+      </section>
+
+      <section id="work-exp" class="section-style"> <!--Container tag-->
+        <h2>Work Exp</h2>
+
+        <h3>Learning Zone</h3>
+        <p>Head of Curriculum</p>
+        <p>2021 - present</p>
+
+        <h3>Sony</h3>
+        <p>Software Engineer</p>
+        <p>2021 - present</p>
+
+      </section>
+      
+      <section id="contact-me" class="section-style">
+        <h2>Contact Me</h2>
+
+        <form id="contact-form">
+          <div id="" class="">
+          <label>Name:</label>
+          <input type="text" id="name" required>
+          </div>
+
+          <!--Form Validation-->
+          <!-- Regular Expressions--> <!-- intermediate-->
+          <div id="">
+          <label>Email:</label>
+          <input type="email" id="email" required>
+          </div>
+
+          <div id=""> <!-- Container tag, no output, only holds other tags-->
+          <label>Message:</label>
+          <textarea id="message"></textarea>
+          </div>
+
+          <button type="submit">Send</button> <!-- trigger a submit event-->
+        </form>
+
+      </section>
+
+      <section id="admin-login" class="section-style">
+        <h2>Admin Login</h2>
+
+        <form id="admin-form"> <!--container tag-->
+          <div id="">
+          <label>Username:</label>
+          <input type="text" id="input_username" required>
+          </div>
+
+          <div id="">
+          <label>Password:</label>
+          <input type="password" id="input_password" required>
+          </div>
+
+          <button type="submit">Submit</button>
+          
+        </form>
+      </section>
+
+      <section id="user-messages" class="section-style">
+        <h2>User Messages</h2>
+        <div>
+
+          
+        </div>
+      </section>
+    
+    </main>
+
+    <footer> <!--Container tag-->
+      <center> Made with ❤️ by Diksha | © 2026 </center>
+    </footer>
+
+    
+    <script src="./script.js"></script>
+  </body>
+</html>

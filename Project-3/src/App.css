@@ -1,0 +1,67 @@
+.page {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 40px 20px 60px;
+}
+
+.page h1 {
+  margin: 0 0 30px;
+  text-align: center;
+  font-size: 36px;
+  color: #27324a;
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 18px;
+}
+
+.card {
+  background: #ffffff;
+  border: 1px solid #d9deea;
+  border-radius: 16px;
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 20px;
+  color: #22314f;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 6px 10px;
+  border-radius: 999px;
+}
+
+.status.not-liked {
+  background: #f5eced;
+  color: #7f3d44;
+}
+
+.status.liked {
+  background: #e8f5e9;
+  color: #2f6b37;
+}
+
+.card button {
+  border: none;
+  border-radius: 10px;
+  background: #2f4b8f;
+  color: #ffffff;
+  font-size: 14px;
+  padding: 9px 14px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.card button:hover {
+  background: #243a6f;
+}
